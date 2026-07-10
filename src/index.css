@@ -2433,7 +2433,12 @@ img {
   .ylp-members-grid {
     grid-template-columns: 1fr;
   }
+  .ylp-news-item {
+    flex-direction: column;
+  }
   .ylp-news-img {
-    display: none;
+    width: 100%;
+    height: 180px;
+    border-radius: var(--radius-sm) var(--radius-sm) 0 0;
   }
 }
