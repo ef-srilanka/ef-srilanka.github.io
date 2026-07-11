@@ -180,7 +180,7 @@ function NewsList({ navigateTo }) {
                           className="news-readmore"
                           onClick={(e) => e.stopPropagation()}
                         >
-                          Read Full Article <ArrowRight size={14} />
+                          {item.link.includes('youtube.com') || item.link.includes('youtu.be') ? 'Watch Video' : 'Read Full Article'} <ArrowRight size={14} />
                         </a>
                       ) : null}
                     </div>
