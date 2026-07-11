@@ -20,8 +20,10 @@ function Home({ navigateTo }) {
     fetch('./data/news.json')
       .then((res) => res.json())
       .then((data) => {
+        // Filter out meeting type updates
+        const filtered = data.filter((item) => item.type !== 'meeting');
         // Sort by date descending, no-date items last
-        const sorted = [...data].sort((a, b) => {
+        const sorted = [...filtered].sort((a, b) => {
           if (!a.date && !b.date) return 0;
           if (!a.date) return 1;
           if (!b.date) return -1;

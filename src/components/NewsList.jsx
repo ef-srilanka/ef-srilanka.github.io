@@ -15,10 +15,12 @@ function NewsList({ navigateTo }) {
 
   // Derive type, sort by date (most recent first, no-date items last)
   useEffect(() => {
-    let items = allItems.map((item) => ({
-      ...item,
-      _type: Array.isArray(item.images) ? 'gallery' : 'news',
-    }));
+    let items = allItems
+      .filter((item) => item.type !== 'meeting')
+      .map((item) => ({
+        ...item,
+        _type: Array.isArray(item.images) ? 'gallery' : 'news',
+      }));
 
     items.sort((a, b) => {
       if (!a.date && !b.date) return 0;
