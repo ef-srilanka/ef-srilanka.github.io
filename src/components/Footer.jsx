@@ -65,7 +65,7 @@ function Footer({ navigateTo }) {
             </div>
             <div className="footer-address-item" style={{ marginTop: '8px' }}>
               <Mail size={18} className="footer-address-icon" />
-              <a href="mailto:eisenhowerfoundationsl@gmail.com" style={{ wordBreak: 'break-all' }}>eisenhowerfoundationsl@gmail.com</a>
+              <a href="mailto:srilankaeisenhowerfellowships@gmail.com" style={{ wordBreak: 'break-all' }}>srilankaeisenhowerfellowships@gmail.com</a>
             </div>
           </address>
         </div>
