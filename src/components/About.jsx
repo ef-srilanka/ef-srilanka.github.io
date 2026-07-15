@@ -155,56 +155,17 @@ function About() {
                   </div>
 
                   <div className="committee-body">
-                    <div className="committee-grid">
-                      {/* Officials */}
-                      <div>
-                        <h4 className="committee-group-title">Office Bearers</h4>
-                        <ul className="member-list">
-                          {committee.officials.map((member, idx) => (
-                            <li className="member-item" key={idx}>
-                              <span className="member-bullet">&#9675;</span>
-                              <div>
-                                <span className="member-name">{member.name}</span>
-                                <span className="member-role"> &ndash; {member.role}</span>
-                              </div>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-
-                      {/* Members */}
-                      <div>
-                        <h4 className="committee-group-title">Committee Members</h4>
-                        <ul className="member-list">
-                          {committee.members.map((member, idx) => (
-                            <li className="member-item" key={idx}>
-                              <span className="member-bullet">&#9675;</span>
-                              <div>
-                                <span className="member-name">{member.name}</span>
-                                <span className="member-role"> &ndash; {member.role}</span>
-                              </div>
-                            </li>
-                          ))}
-                        </ul>
-
-                        {committee.pastOffice && (
-                          <div style={{ marginTop: '24px' }}>
-                            <h4 className="committee-group-title" style={{ fontSize: '0.85rem' }}>Past Leadership</h4>
-                            <ul className="member-list">
-                              {committee.pastOffice.map((member, idx) => (
-                                <li className="member-item" key={idx}>
-                                  <span className="member-bullet">&#9675;</span>
-                                  <div>
-                                    <span className="member-name">{member.name}</span>
-                                    <span className="member-role"> &ndash; {member.role}</span>
-                                  </div>
-                                </li>
-                              ))}
-                            </ul>
+                    <ul className="committee-grid">
+                      {committee.members.map((member, idx) => (
+                        <li className="member-item" key={idx}>
+                          <span className="member-bullet">&#9675;</span>
+                          <div>
+                            <span className="member-name">{member.name}</span>
+                            <span className="member-role"> &ndash; {member.role}</span>
                           </div>
-                        )}
-                      </div>
-                    </div>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               ))}

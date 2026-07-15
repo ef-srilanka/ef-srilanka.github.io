@@ -3,7 +3,7 @@
     "id": "2025-26",
     "title": "Committee (2025/26)",
     "subtitle": "Committee members appointed for the year 2025/26",
-    "officials": [
+    "members": [
       {
         "name": "Heminda Jayaweera",
         "role": "Chairman (EF 2021)"
@@ -15,9 +15,7 @@
       {
         "name": "Dhananath Fernando",
         "role": "Treasurer (EF 2022)"
-      }
-    ],
-    "members": [
+      },
       {
         "name": "Chevaan Daniel",
         "role": "EF 2017"
@@ -36,7 +34,7 @@
     "id": "2017-19",
     "title": " Committee (2017/19)",
     "subtitle": "Interim Committee appointed at the Annual General Meeting held on December 07, 2017",
-    "officials": [
+    "members": [
       {
         "name": "J.C. Weliamuna",
         "role": "Chairman (EF 2004 SARP)"
@@ -52,9 +50,7 @@
       {
         "name": "Jayantha Fernando",
         "role": "Treasurer (EF 2012 SARP)"
-      }
-    ],
-    "members": [
+      },
       {
         "name": "H. Dayananda Gunawardena",
         "role": "EF 1986 MNP"
@@ -69,7 +65,7 @@
     "id": "2013-14",
     "title": "Committee (2013/14)",
     "subtitle": "Appointed for the year 2014 at the Annual General Meeting held on November 30, 2013",
-    "officials": [
+    "members": [
       {
         "name": "Paikiasothy Saravanamuttu",
         "role": "Chairman (2004 SRP)"
@@ -81,9 +77,7 @@
       {
         "name": "Saliya Peiries",
         "role": "Secretary (2012 SRP)"
-      }
-    ],
-    "members": [
+      },
       {
         "name": "Chrishantha Weliamuna",
         "role": "2004 SRP"
@@ -95,9 +89,7 @@
       {
         "name": "Kanchana Weerakoon",
         "role": "2012 SRP"
-      }
-    ],
-    "pastOffice": [
+      },
       {
         "name": "Chandra Jayaratne",
         "role": "Past Chairman (1989 MNP)"
@@ -112,7 +104,7 @@
     "id": "2008-09",
     "title": "Committee (2008/09)",
     "subtitle": "Committee members appointed for the year 2008",
-    "officials": [
+    "members": [
       {
         "name": "Chandra Jayaratne",
         "role": "Chairman (1989 MNP)"
@@ -120,9 +112,7 @@
       {
         "name": "H. Dayananda Gunawardena",
         "role": "Secretary and Treasurer (1986 MNP)"
-      }
-    ],
-    "members": [
+      },
       {
         "name": "Chrishantha Weliamuna",
         "role": "2004 SRP"

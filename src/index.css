@@ -753,27 +753,12 @@ img {
 }
 
 .committee-grid {
+  list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  gap: 16px 24px;
   border-top: 1px solid var(--border-color);
   padding-top: 24px;
-}
-
-.committee-group-title {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--accent-dark);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 16px;
-}
-
-.member-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
 }
 
 .member-item {
@@ -2087,7 +2072,7 @@ img {
     gap: 30px;
   }
   .committee-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .fellowship-grid {
     grid-template-columns: 1fr;
@@ -2121,6 +2106,9 @@ img {
     --header-topbar-h: 34px;
     --header-main-h: 52px;
     --logo-clearance: 170px;
+  }
+  .committee-grid {
+    grid-template-columns: 1fr;
   }
   .logo-link {
     top: 6px;
